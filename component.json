@@ -1,0 +1,14 @@
+{
+  "name": "mux",
+  "repo": "juliangruber/mux",
+  "description": "Multiplex streams",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "juliangruber/pause-stream": "0.0.5"
+  },
+  "development": {},
+  "scripts": [
+    "index.js"
+  ]
+}

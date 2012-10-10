@@ -1,0 +1,29 @@
+{
+  "name": "mux",
+  "version": "0.0.1",
+  "description": "Multiplex streams",
+  "main": "index.js",
+  "dependencies": {
+    "pause-stream": "~0.0.5"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": "*",
+    "through": "*"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juliangruber/mux"
+  },
+  "keywords": [
+    "multiplex",
+    "stream",
+    "streams",
+    "mux"
+  ],
+  "author": "Julian Gruber <julian@juliangruber.com>",
+  "license": "MIT"
+}
