@@ -14,6 +14,7 @@ src
     dest2,
     dest3
   ))
+  .pipe(somewhereElse)
 ```
 
 ## Installation
