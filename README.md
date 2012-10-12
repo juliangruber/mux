@@ -1,7 +1,7 @@
 
 # mux
 
-  Multiplex streams
+  Multiplex streams, like `tee(1)`.
 
 ## Usage
 
@@ -31,9 +31,6 @@ $ component install juliangruber/mux
 
 Creates a new through Stream that pipes all incoming data to each
 `destination`-Stream.
-
-For each `destination` there is a pausable stream connected in-between so that
-when one `destination` applies backpressure the others aren't slowed down.
 
 ## License
 

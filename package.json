@@ -4,12 +4,11 @@
   "description": "Multiplex streams",
   "main": "index.js",
   "dependencies": {
-    "pause-stream": "~0.0.5"
+    "through": "~1.1.1"
   },
   "devDependencies": {
     "mocha": "*",
-    "expect.js": "*",
-    "through": "*"
+    "expect.js": "*"
   },
   "scripts": {
     "test": "mocha"

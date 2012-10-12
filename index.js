@@ -1,14 +1,14 @@
-var pause = require('pause-stream');
+var through = require('through');
 
 module.exports = mux;
 
 function mux() {
   var args = Array.prototype.slice.call(arguments);
-  var s = pause();
 
+  var tr = through();
   for (var i = 0; i < args.length; i++) {
-    s.pipe(pause()).pipe(args[i]);
+    tr.pipe(args[i]);
   }
 
-  return s;
+  return tr;
 }
